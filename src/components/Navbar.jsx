@@ -7,7 +7,7 @@ export function Navbar(){
   <div className="flex w-full flex-wrap items-center justify-between px-3">
 
     <div
-      className="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+      className="!visible  flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
       id="navbarSupportedContent12"
       data-te-collapse-item>
 

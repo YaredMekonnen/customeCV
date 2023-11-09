@@ -6,10 +6,20 @@ export function Home(){
             <div
               class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div class="flex flex-wrap items-center">
-                <div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+                {/* <div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
                   <img src="Yared.jpg" alt="Trendy Pants and Shoes"
                     class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" />
-                </div>
+                </div> */}
+<div class="lg:flex lg:w-6/12 xl:w-4/12">
+  <img src="Yared.jpg" alt="Trendy Pants and Shoes"
+    class="w-full  lg:w rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" />
+</div>
+
+
+
+
+
+
                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12 shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30">
                   <div class="px-6 py-12 md:px-12">
                     <h2 class="mb-4 text-2xl font-bold">
@@ -19,7 +29,7 @@ export function Home(){
                       Web developer
                     </p>
                     <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                    Hello there! I'm Yared, a passionate and creative web developer with a keen eye for design and a love for
+            Hello there! I'm Yared, a passionate and creative web developer with a keen eye for design and a love for
             coding. I specialize in crafting clean and functional websites that not only look great but also provide a
             seamless user experience. With  over 2 years of experience in the field, I bring a unique blend of technical
             expertise and artistic flair to every project I undertake.
